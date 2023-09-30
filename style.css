@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+table{
+    width: 90%;
+    border-collapse: collapse;
+    /* margin: 0 auto;
+    margin-top: 20px; */
+}
+
+th,td{
+   height: 50px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+tr{
+    transition: .2s;
+}
+
+
+tr:nth-child(odd){
+    background-color: chocolate;
+    color: white;
+}
+
+th{
+    background-color: green;
+}
+
+
